@@ -9,10 +9,10 @@ class Rectangle < GeometricBase
   end
 
   def area
-    @@area = @height * @width
+    multiply(@width, @height)
   end
 
   def perimeter
-    @@perimeter = (@width * 2) + (@height * 2)
+    sum(multiply(@height, 2), multiply(@width, 2))
   end
 end
