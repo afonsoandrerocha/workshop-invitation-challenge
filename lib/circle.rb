@@ -5,7 +5,7 @@ class Circle < GeometricBase
 
   def initialize(radius)
   end
-      adfasdf
+
   def area
   end
 
